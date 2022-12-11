@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Business{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px 80px;
+}
+#business-1{
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#b-left{
+    width: 55%;
+}
+#b-left h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 10px 0px;
+}
+#b-left p{
+    font-size: 22px;
+}
+#b-left h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 20px 0px;
+}
+#b-left ul{
+    list-style: square;
+    font-size: 22px;
+}
+#b-left ul li{
+    margin-bottom: 20px;
+}
+#b-left h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 20px 0px;
+}
+#b-gal{
+    display: flex;
+    justify-content: center;
+}
+#b-gal-1{
+    border: 2px solid gray;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images-1{
+    width: 26%;
+    height: 150px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.images-1 img{
+    width: 100%;
+}
+
+#b-right{
+    width: 42%;
+}
+#business-form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+#business-form input{
+    height: 70px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+#Country{
+    height: 60px;
+}
+#touch{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    margin: 20px 0px;
+}
+#touch:hover{
+    background-color: white;
+    color: black;
+}
+#b-right p{
+    margin: 20px;
+}
+#b-right p span{
+    color: #5624d0;
+}
+
+@media only screen and (max-width: 1000px) {
+    #b-left , #b-right{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+  }

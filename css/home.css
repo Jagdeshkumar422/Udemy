@@ -1,0 +1,387 @@
+#main img{
+    width: 100%;
+    position: relative;
+}
+
+.box-1{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    top: 100px;
+    left: 130px;
+    background-color: white;
+    text-align: justify;
+    padding: 20px 10px;
+
+}  
+.box-1 h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.box-2{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    top: 100px;
+    left: 130px;
+    background-color: white;
+    text-align: justify;
+    padding: 20px 10px;
+
+}  
+.box-2 h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.box-2 p{
+    font-size: 22px;
+    font-weight: 200;
+}
+.box-3{
+    position: absolute;
+    width: 35%;
+    height: 200px;
+    top: 70px;
+    left: 130px;
+    background-color: white;
+    text-align: justify;
+    padding: 20px 10px;
+
+}  
+.box-3 h1{
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.box-3 p{
+    font-size: 22px;
+    font-weight: 200;
+}
+@media only screen and (max-width: 1310px) {
+    .box-1 h1 ,.box-2 h1 ,.box-3 h1{
+        font-size: 22px;
+        font-weight: 500;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .box-1 ,.box-2 ,.box-3{
+        visibility: hidden;
+    }
+  }
+
+  #f-sec{
+    display: flex;
+    justify-content: space-around;
+}
+#First-section{
+    width: 95%;
+    padding: 50px 0px;
+}
+#First-section h1{
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#First-section p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+@media only screen and (max-width: 500px) {
+    #First-section h1{
+        font-size: 22px;
+    }
+    #First-section p{
+        font-size: 16px;
+  }
+}
+.link-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-1 a{
+    color: rgb(15, 15, 15);
+    /* padding-right: 20px; */
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.link-1 a:hover{
+    color: black;
+    font-weight: 700;
+}
+
+#Heading{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* ----------------------- Section----------------------- */
+.s-2{
+    background-color: #f7f9fa;
+    padding: 50px 0px;
+}
+#s-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#s-2-1{
+    width: 95%;
+    padding-left: 20px;
+}
+#section-2{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+#section-2 a{
+    color: #5624d0;
+}
+#section-2 a:hover{
+    color: #19054d;
+}
+#section-2-1{
+    width: 24%;
+}
+
+#section-2-2{
+    width: 24%;
+}
+#section-2-3{
+    width: 24%;
+}
+#section-2-4{
+    width: 24%;
+}
+#button-1{
+    margin: 20px 0px;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+}
+#button-1 h4{
+    font-size: 16px;
+}
+@media only screen and (max-width: 850px) {
+    #section-2-1 ,#section-2-2 ,#section-2-3 ,#section-2-4{
+        width: 48%;
+    }
+    #button-1{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #section-2-1 ,#section-2-2 ,#section-2-3 ,#section-2-4{
+        width: 98%;
+    }
+    #button-1{
+        width: 100%;
+    }
+}
+
+
+/* ---------------------------Section-3----------------------------- */
+.s-3{
+    display: flex;
+    justify-content: center;
+}
+
+#section-3{
+    width: 70%;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#s-3-left{
+    width: 47%;
+}
+#s-3-left img{
+    width: 100%;
+}
+#s-3-right{
+    width: 47%;
+    padding-top: 100px;
+}
+#s-3-right h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#button-2{
+    width: 60%;
+    background-color: black;
+}
+
+#button-2 h4{
+    font-size: 16px;
+    padding: 10px 0px 5px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+    #s-3-left{
+    width: 90%;
+    }
+    #s-3-right{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:500px) {
+    #button-2{
+        width: 100%;
+    }
+}
+/* --------------------------section-4------------------- */
+.s-4{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #f7f9fa;
+}
+#section-4{
+    width: 97%;
+    text-align: center;
+}
+#section-4 h1{
+    color: #5624d0;
+}
+#section-4 p{
+    color: #9a24d1;
+}
+#Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1000px) {
+   
+}
+@media only screen and (max-width:500px) {
+    #section-4 h1{
+        font-size: 22px;
+    }
+} 
+/* ---------------------------Section-5----------------------------- */
+.s-5{
+    display: flex;
+    justify-content: center;
+}
+
+#section-5{
+    width: 70%;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#s-5-left{
+    width: 47%;
+    padding-top: 100px;
+}
+
+#s-5-left img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+#button-3{
+    background-color: black;
+    padding: 10px 0px 5px;
+    width: 50%;
+}
+#button-3 h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+#s-5-right{
+    width: 47%;
+}
+#s-5-right img{
+    width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+    #s-5-left{
+    width: 90%;
+    margin-bottom: 30px;
+    }
+    #s-5-right{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #button-3{
+        width: 100%;
+    }
+}
+
+/* ---------------------------Section-6----------------------------- */
+.s-6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-6{
+    width: 70%;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#s-6-left{
+    width: 47%;
+}
+#s-6-left img{
+    width: 100%;
+}
+
+#s-6-right{
+    width: 47%;
+    padding-top: 100px;
+}
+#s-6-right h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#button-4{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px 5px;
+    width: 40%;
+}
+#button-4 h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    #s-6-left{
+    width: 90%;
+    margin-bottom: 30px;
+    }
+    #s-6-right{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #button-4{
+        width: 100%;
+    }
+}

@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#shopping1 {
+    margin: 50px 0px;
+}
+#shopping1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#shopping1 p{
+    font-size: 25px;
+    font-weight: 600;
+}
+#s-card{
+    display: flex;
+    justify-content: center;
+}
+#shop-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 2px solid gray;
+}
+#shop-empty img {
+    width: 30%;
+}
+#p-s{
+    text-align: center;
+    margin-top: 20px;
+}
+#keep-shopping{
+    width: 20%;
+    height: 70px;
+    font-size: 22px;
+    background-color: #a435f0;
+    color: white;
+    font-weight: 600;
+}
+#buying{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#keep-shopping:hover{
+    background-color: #8825ca;
+}
+@media only screen and (max-width: 1000px) {
+    #keep-shopping{
+        width: 40%;
+    }
+    #shopping1 h1{
+        font-size: 32px;
+    }
+    
+    #shopping1 p{
+        font-size: 20px;
+    }
+    #p-s{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #keep-shopping{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    #keep-shopping{
+        width: 100%;
+    }
+}
+/* ----------------------pagesfooter----------------- */
+.ft1{
+    background-color: black;
+
+}
+#footer1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+#foot-left{
+    width: 50%;
+}
+#foot-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+#foot-right img{
+    width: 80px;
+}
+#foot-left h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+}
+#footer1 h1 span{
+    color: #9578c3;
+}
+@media only screen and (max-width: 1000px) {
+    #foot-left{
+        width: 100%;
+    }
+    #foot-left h1{
+        font-size: 16px;
+    }
+    #foot-right{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #foot-right img{
+        width: 50px;
+    }
+}  
